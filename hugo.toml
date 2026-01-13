@@ -2,3 +2,14 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Avoid else'
 theme = 'PaperMod'
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    weight = 1
+  [languages.pt-br]
+    languageName = 'Português (Brasil)'
+    weight = 2
